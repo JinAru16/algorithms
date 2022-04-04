@@ -1,2 +1,5 @@
-a = ''
-print(len(a))
+arr = []
+p = []
+a = list(map(int, input().split()))
+print(a)
+
