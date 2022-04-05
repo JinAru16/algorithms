@@ -1,4 +1,4 @@
-'''
+
 N, M = map(int, input().split())
 arrs = []
 
@@ -15,9 +15,9 @@ for _ in range(input_calculate_lines):
         for b in range(j-1, y):
             total += arrs[a][b]
     print(total)
+
+
 '''
-
-
 N,M = map(int, input().split())
 arr = [list(map(int, input().split()))for _ in range(N)]
 
@@ -32,3 +32,5 @@ for _ in range(input_calculate_lines):
     i,j,x,y = map(int, input().split())
     total = dp[x][y] - dp[i-1][y] - dp[x][j-1] + dp[i-1][j-1]
     print(total)
+'''
+
