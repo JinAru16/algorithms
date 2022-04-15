@@ -1,10 +1,8 @@
-A = [[1, 2], [3,5], [4, 5]]
+a = [1, 2, 3, 4]
 
-
-for i in range(len(A)):
-    b = ""
-    for j in range(len(A[i])):
-        b += str(A[i][j])
-        b += " "
-    print(b)
-
+if 1  not in a:
+    print("dd")
+else:
+    print("11")
+    a.append(55)
+    print(a)
