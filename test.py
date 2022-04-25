@@ -1,5 +1,2 @@
-a = 'asdfgfvg'
-i = 0
-while i < len(a):
-    print(a[i])
-    i += 1
+import sys
+a, b = sys.stdin.readline(), sys.stdin.readline()
