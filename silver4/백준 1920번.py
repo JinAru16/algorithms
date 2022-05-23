@@ -1,10 +1,10 @@
 import sys
 N = int(sys.stdin.readline().strip())
-A = list(map(int, sys.stdin.readline().split(' ')))
+A = list(map(int, sys.stdin.readline().split()))
 A.sort()
 
 M = int(sys.stdin.readline().strip())
-nums = list(map(int, sys.stdin.readline().split(' ')))
+nums = list(map(int, sys.stdin.readline().split()))
 
 
 def binary_search(num):
